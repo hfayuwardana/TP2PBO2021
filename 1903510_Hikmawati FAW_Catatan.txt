@@ -1,0 +1,43 @@
+Sumpah:
+Saya Hikmawati Fajriah Ayu Wardana (NIM 1903510) mengerjakan TP2 dalam praktikum 
+mata kuliah Desain dan Pemrograman Berorientasi Objek untuk keberkahan-Nya, 
+maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin.
+
+Kesulitan:
+1. Meluangkan waktu selama seharian untuk mempelajari berbagai tutorial yang ada 
+    di internet, dan memilah mana tutorial yang bagus untuk dipelajari dan tidak.
+2. Mengeset size dari kolom pada tabel agar width nya dapat ditentukan secara statis,
+    tetapi ketika diimpelementasikan tidak berhasil/tidak berpengaruh, sehingga 
+    penulisan bagian ini saya hapus.
+3. Melakukan debugging dalam Java terkhusus untuk project JFrame seperti ini.
+4. Sempat terjadi error dalam melakukan Test Connection karena JDBC URL yang tidak
+    sesuai.
+5. Sempat kebingungan (dan mengira typo) karena pertama kalinya melihat syntax SQL 
+    dalam PreparedStatement yang mengandung simbol "?", namun ternyata itu memang 
+    sebuah syntax khusus ketika suatu value belum dapat diisikan 
+    (makanya menggunakan PreparedStatement).
+
+Hal yang baru dipelajari:
+1. Menggunakan berbagai macam package yang ada dalam suatu library di Java.
+2. Menggunakan library JDBC untuk mengkoneksikan project ke database
+3. Memodifikasi konfigurasi dalam tabel, seperti menengahkan tulisan di tabel dan
+    mengeset width dari tabel (walau untuk mengeset width ini gagal).
+4. Menambah data dan membaca data ke dan dari database
+5. Menambahkan package secara mandiri seperti package Konfigurasi ke database dan
+    package Resource untuk menampung gambar
+6. Memahami keunikan dari project Java menggunakan NetBeans yang tidak selalu 
+    menimbulkan error ketika melakukan suatu penghapusan (seperti gambar, dll). 
+    Dan ketika kita melakukan suatu perubahan kecil, maka yang lainnya akan 
+    selalu mengikuti. Atau dengan kata lain, saya bisa sebut bahwa segala utility 
+    yang ada ter-reference dengan baik.
+
+Fitur yang sudah dikerjakan:
+1. Membuat halaman utama berupa tulisan selamat datang di sistem pendataan mobil
+2. Membuat form untuk menginputkan data mobil yang terdiri dari text field dan combobox,
+    serta membuat validasi form
+3. Mengkoneksikan project ke database menggunakan library JDBC.
+3. Menambahkan data hasil inputan form ke database dan menampilkannya di panel 
+    khusus tabel
+4. Memodifikasi konfigurasi dalam tabel, seperti menengahkan tulisan di tabel.
+5. Membuat panel info yang berisikan gambar berupa foto saya beserta nama dan NIM saya.
+6. Melakukan hide-show pada elemen-elemen dalam frame untuk panel, label, dan button.
